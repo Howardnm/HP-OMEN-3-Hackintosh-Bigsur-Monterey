@@ -13,7 +13,7 @@ OpenCore 版本: 0.6.7
 ## 配置
 | 产品名称暗影精灵3 | OMEN by HP Laptop 15-ce0xx                |
 | ----------------- | ----------------------------------------- |
-| BIOS              | F.20 / F.19                               |
+| BIOS              | F.23 / F.19                               |
 | 处理器            | Intel(R) Core(TM) i5-7300HQ / i7-7700HQ   |
 | 独立显卡          | NVIDIA GeForce GTX 1050ti                 |
 | 显卡              | Intel(R) HD Graphics 630                  |
