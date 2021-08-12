@@ -2,9 +2,9 @@
 ### 系统
 - macOS Big Sur 11.2.3   <p><center>EFI源自<a href="https://github.com/t-shao">t-shao</a></center></p>
 
-## EFI改进
-- 修复屏闪、裂屏
-- 修复国产暗影精灵3的有线网卡驱动
+## 对原EFI改进
+- 注入显示屏信息，修复屏闪、裂屏
+- 修复暗影精灵3的有线网卡驱动
 - 注入序列号，使appleID正常登入（可以使用OCAuxiliaryTools进行更换序列号，避免冲突）
 
 EFI bootloader (OpenCore) configuration for OMEN by HP Laptop 15-ce0xx
@@ -70,9 +70,6 @@ EFI兼容以上配置
 2. 关机，复制OC和BOOT到你的EFI文件，进行替换
 3. 按F9开机，选OpenCore.efi启动
 
-## Acknowlegement
-- [Acidanthera](https://github.com/acidanthera) for maintaining [OpenCore](https://github.com/acidanthera/OpenCorePkg) and many essential kexts.
-- [daliansky](https://github.com/daliansky) for [macOS installation images, tutorials](https://blog.daliansky.net/), and the [ACPI hotpatches](https://github.com/daliansky/OC-little).
-- [shimakazechan](https://github.com/shimakazechan) for the [OpenCore configuration](https://github.com/shimakazechan/OMEN-by-HP-3-Hackintosh) of the same model for reference.
-- 794767404 from PCbeta for the [partial solution](http://bbs.pcbeta.com/viewthread-1702113-1-1.html) to the battery problem of HP OMEN series.
-- [zxystd](https://github.com/zxystd) for Intel [wifi](https://github.com/zxystd/itlwm) and [bt](https://github.com/zxystd/IntelBluetoothFirmware) driver.
+## 链接
+- 黑果小兵 macOS 11.2.3<a href="https://blog.daliansky.net/macOS-BigSur-11.2.3-20D91-Release-version-with-OC-0.6.7-and-Clover-5131-and-PE-original-image.html">t-shao</a>
+- 
