@@ -20,7 +20,7 @@ OpenCore 版本: 0.6.7
 | 显卡              | Intel(R) HD Graphics 630                  |
 | 声卡              | Realtek ALC295                            |
 | 硬盘              | HP SSD KIOXIA 512G、WD 500G               |
-| 网卡              | Realtek RTL8111                           |
+| 网卡              | Realtek RTL8111 + Intel AX200             |
 
 (*) EFI兼容以上配置
 
@@ -39,44 +39,39 @@ OpenCore 版本: 0.6.7
 #### 显示
 - 有效
     - 内部显示和亮度调整（通过系统偏好设置或Fn热键）
-    - 通过 USB-C 端口外接显示器（自己没测试，Type-C测试：ipad pro能充电，但插入不能扩展屏）
+    - 通过 USB-C 端口外接显示器（未测试，USB-C测试：ipad pro能充电，但插入不能扩展屏（USB端口均可以扩展屏））
     - HiDPI需自己注入
 - 无效
     - 独显不能驱动
     - 外接显示器的数字音频
 
 #### 声音
-- Working
-    - analog audio including speaker, headphones, and internal microphone array
-    - digital audio through USB-C port
-- Not working
-    - external microphone (not tested)
+- 有效
+    - 模拟音频，包括扬声器、耳机和内部麦克风阵列（插入耳机自动切换音频正常）
+    - 通过 USB-C 端口提供数字音频（未测试）
+- 无效
+    - 外置麦克风（未测试）
 
-#### Network
-- Working
-    - wired Ethernet
-    - USB network tethering
-    - Intel WiFi and BT (quite stable, currently support system wifi management interface and partial Continuity features including Handoff and Universal Clipboard)
-- Not working
-    - stock Realtek wireless network and bluetooth adapter
+#### 网络
+- 有效
+    - 有线以太网
+    - USB有线以太网
+    - Intel WiFi和BT（相当稳定，目前支持系统wifi管理界面和部分Continuity功能，包括Handoff和Universal Clipboard）（应该指的是AX200网卡，我用的是博通BCM94352z免驱卡）
+- 无效
+    - 蓝牙适配器（应该指的是AX200网卡）
 
 #### I/O
-- Working
-    - USB ports (including Type-C)
-    - touchpad (support multi-finger gestures and ForceTouch simulation, need some changes in the kext config)
-    - card reader? (not tested)
-- Not working
-    - miniDP, HDMI ports (via dGPU)
+- 有效
+    - USB 端口 (包括 Type-C)（自己测试过Type-c好像只能充电）
+    - 触摸板（支持多指手势和 ForceTouch 模拟）（这个是真的吊，4指手势都识别出来了，但反应不灵敏，建议还是设置3指比较好）
+    - 读卡器（未测试）
+- 无效
+    - miniDP, HDMI 端口 (via dGPU)（主要原因应该是：端口走的是独显）
 
-## Instructions
-1. Disable the CFG Lock of the motherboard (see guide in directory 'Disable_CFG_Lock')
-2. Copy (replace) 'BOOT' and 'OC' under 'EFI' directory of this repo into the 'EFI' directory of your ESP (EFI) partition.
-3. Adjust the kexts and OpenCore config file depending on your hardware configuration.
-
-## Notes
-- Be free to use and tweak the configuration, but it's *at your own risk*. **Not recommended for production environment.**
-- Recommended to update the BIOS and ME to the latest version.
-- When encountering battery malfunction, try to press and hold the power button for 20 seconds when powered off with all peripherals and power cord disconnected.
+## 说明书
+1. 用黑果小兵的镜像安装，直至进入新系统页面
+2. 关机，复制OC和BOOT到你的EFI文件，进行替换
+3. 按F9开机，选OpenCore.efi启动
 
 ## Acknowlegement
 - [Acidanthera](https://github.com/acidanthera) for maintaining [OpenCore](https://github.com/acidanthera/OpenCorePkg) and many essential kexts.
