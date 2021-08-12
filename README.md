@@ -71,5 +71,5 @@ EFI兼容以上配置
 3. 按F9开机，选OpenCore.efi启动
 
 ## 链接
-- 黑果小兵 macOS 11.2.3<a href="https://blog.daliansky.net/macOS-BigSur-11.2.3-20D91-Release-version-with-OC-0.6.7-and-Clover-5131-and-PE-original-image.html">t-shao</a>
+- <a href="https://blog.daliansky.net/macOS-BigSur-11.2.3-20D91-Release-version-with-OC-0.6.7-and-Clover-5131-and-PE-original-image.html">黑果小兵 macOS 11.2.3镜像</a>
 - 
