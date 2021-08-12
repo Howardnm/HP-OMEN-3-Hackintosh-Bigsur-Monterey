@@ -1,8 +1,6 @@
 # [Hackintosh] OMEN_by_HP_Laptop_15-ce0xx
 ### 系统
-- macOS Big Sur 11.2.3
-
-<p><center>EFI源自<a href="https://github.com/t-shao">t-shao</a></center></p>
+- macOS Big Sur 11.2.3   <p><center>EFI源自<a href="https://github.com/t-shao">t-shao</a></center></p>
 
 ## EFI改进
 - 修复屏闪、裂屏
