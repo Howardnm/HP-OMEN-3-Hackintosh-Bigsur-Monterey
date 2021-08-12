@@ -66,7 +66,7 @@ EFI兼容以上配置
 ## 说明书
 1. 用黑果小兵的镜像安装，直至进入新系统页面（镜像一般不会出现错误，中途会出现“block”字眼会卡很久，最终还是会加载进去的，给点耐心，祝你成功）
 2. 关机，复制OC和BOOT到你的EFI文件，进行替换
-3. 按F9开机，选OpenCore.efi启动
+3. 拔掉u盘，按F9开机，选OpenCore.efi启动
 
 ## 链接
 - <a href="https://blog.daliansky.net/macOS-BigSur-11.2.3-20D91-Release-version-with-OC-0.6.7-and-Clover-5131-and-PE-original-image.html">黑果小兵 macOS 11.2.3镜像</a>
