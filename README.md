@@ -1,22 +1,28 @@
 # [Hackintosh] OMEN_by_HP_Laptop_15-ce0xx
+<p><center>EFI源自<a href="https://github.com/t-shao">t-shao</a></center></p>
+
+## EFI改进
+- 修复屏闪、裂屏
+- 修复国产暗影精灵3的有线网卡驱动
+- 注入序列号，使appleID正常登入
+
 EFI bootloader (OpenCore) configuration for OMEN by HP Laptop 15-ce0xx
 
-<p><center>English(当前)|<a href="https://github.com/besscroft/HP-OMEN-3-Hackintosh/blob/master/zh_CN_README.md">中文</a></center></p>
 
-OpenCore version: 0.6.7
+OpenCore 版本: 0.6.7
 
-## Specs
-| Model | OMEN by HP Laptop 15-ce007tx           |
-| ----- | -------------------------------------- |
-| CPU   | Intel Core i5-7300HQ                   |
-| iGPU  | Intel HD Graphics 630                  |
-| dGPU  | NVIDIA GeForce GTX 1050Ti              |
-| Audio | Realtek ALC295                         |
-| Net   | Realtek RTL8111 + Intel AX200(*)       |
-| Disk  | Samsung SSD 970 EVO Plus(*) + HGST HDD |
-| BIOS  | F.23/F.19                                   |
+## 配置
+| 产品名称暗影精灵3 | OMEN by HP Laptop 15-ce0xx                |
+| ----------------- | ----------------------------------------- |
+| BIOS              | F.20 / F.19                               |
+| 处理器            | Intel(R) Core(TM) i5-7300HQ / i7-7700HQ   |
+| 独立显卡          | NVIDIA GeForce GTX 1050ti                 |
+| 显卡              | Intel(R) HD Graphics 630                  |
+| 声卡              | Realtek ALC295                            |
+| 硬盘              | HP SSD KIOXIA 512G、WD 500G               |
+| 网卡              | Realtek RTL8111                           |
 
-(*) component replaced on my own
+(*) 兼容以上配置
 
 ## Progress
 ### System Support
