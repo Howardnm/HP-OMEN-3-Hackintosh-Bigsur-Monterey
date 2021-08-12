@@ -21,7 +21,7 @@ OpenCore 版本: 0.6.7
 | 显卡              | Intel(R) HD Graphics 630                  |
 | 声卡              | Realtek ALC295                            |
 | 硬盘              | HP SSD KIOXIA 512G、WD 500G               |
-| 网卡              | Realtek RTL8111 + Intel AX200             |
+| 网卡              | Realtek RTL8111 + Intel AX200（自选）      |
 
 EFI兼容以上配置
 
