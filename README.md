@@ -1,6 +1,8 @@
 # [Hackintosh] OMEN_by_HP_Laptop_15-ce0xx
 EFI bootloader (OpenCore) configuration for OMEN by HP Laptop 15-ce0xx
 
+<p><center>English(当前)|<a href="https://github.com/besscroft/HP-OMEN-3-Hackintosh/blob/master/zh_CN_README.md">中文</a></center></p>
+
 OpenCore version: 0.6.7
 
 ## Specs
@@ -12,7 +14,7 @@ OpenCore version: 0.6.7
 | Audio | Realtek ALC295                         |
 | Net   | Realtek RTL8111 + Intel AX200(*)       |
 | Disk  | Samsung SSD 970 EVO Plus(*) + HGST HDD |
-| BIOS  | F.23                                   |
+| BIOS  | F.23/F.19                                   |
 
 (*) component replaced on my own
 
