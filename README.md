@@ -74,6 +74,7 @@ EFI兼容以上配置
 3. 拔掉u盘，按F9开机，选OpenCore.efi启动
 
 ## 链接
-- <a href="https://blog.daliansky.net/macOS-BigSur-11.2.3-20D91-Release-version-with-OC-0.6.7-and-Clover-5131-and-PE-original-image.html">黑果小兵 macOS 11.2.3镜像</a>
+- <a href="https://blog.daliansky.net/macOS-BigSur-11.2.3-20D91-Release-version-with-OC-0.6.7-and-Clover-5131-and-PE-original-image.html">黑果小兵macOS Big Sur 11.2.3 20D91 Installer for OpenCore 0.6.7 and CLOVER 5131 and PE</a>
+- `BaiDuCloud link`: <https://pan.baidu.com/s/1ILCN29bhHypIjNfwU5EjuQ> `Extraction code`: `49vz`
 - <a href="https://www.acutesystems.com/tmac/tmsetup.zip">u盘刷写工具transmac</a>（建议，个人感觉比etcher稳太多了）
 - 
