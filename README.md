@@ -2,6 +2,7 @@
 ### 系统：macOS Big Sur 11.2.3
 - 👌EFI基本完美，有新突破欢迎反馈！！
 - qq群：<a href="https://jq.qq.com/?_wv=1027&k=qxSfoaw7">639131732</a> （验证：暗影精灵黑苹果）
+
 ![](images/screenshot.png)
 ### EFI改进 (EFI源自<a href="https://github.com/t-shao">t-shao</a>)
 - 注入显示屏信息，修复屏闪、裂屏
