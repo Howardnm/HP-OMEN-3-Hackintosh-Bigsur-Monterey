@@ -6,7 +6,7 @@
 ## EFI改进 (EFI源自<a href="https://github.com/t-shao">t-shao</a>)
 - 注入显示屏信息，修复屏闪、裂屏
 - 修复暗影精灵3的有线网卡驱动
-- 注入序列号，使appleID正常登入（可以使用OCAuxiliaryTools进行更换序列号，避免冲突）
+- 注入序列号，使appleID正常登入（可以使用<a href="https://github.com/ic005k/QtOpenCoreConfig/releases">OCAuxiliaryTools</a>进行更换序列号，避免冲突）
 
 OpenCore 版本: 0.6.7
 
@@ -70,4 +70,5 @@ EFI兼容以上配置
 
 ## 链接
 - <a href="https://blog.daliansky.net/macOS-BigSur-11.2.3-20D91-Release-version-with-OC-0.6.7-and-Clover-5131-and-PE-original-image.html">黑果小兵 macOS 11.2.3镜像</a>
+- <a href="https://www.acutesystems.com/tmac/tmsetup.zip">u盘刷写工具transmac</a>（建议，个人感觉比etcher稳太多了）
 - 
