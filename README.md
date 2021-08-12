@@ -4,7 +4,7 @@
 ## EFI改进
 - 修复屏闪、裂屏
 - 修复国产暗影精灵3的有线网卡驱动
-- 注入序列号，使appleID正常登入
+- 注入序列号，使appleID正常登入（可以使用OCAuxiliaryTools进行更换序列号，避免冲突）
 
 EFI bootloader (OpenCore) configuration for OMEN by HP Laptop 15-ce0xx
 
@@ -22,32 +22,30 @@ OpenCore 版本: 0.6.7
 | 硬盘              | HP SSD KIOXIA 512G、WD 500G               |
 | 网卡              | Realtek RTL8111                           |
 
-(*) 兼容以上配置
+(*) EFI兼容以上配置
 
 ## Progress
 ### System Support
 - Windows 10 and up to macOS Big Sur 11.2.3 (my current setup)
 - Others are not tested, feedback is welcome.
 
-### Hardware Functionality
-#### Power Management
-- Working
-    - battery status, charge, and discharge
-    - sleep and wake (including PowerNap, sleep when lid close on battery, and wake by peripherals on AC)
-    - CPU PM (to be further tested)
-- Not working
-    - you tell me
+### 硬件功能
+#### 电源管理
+- 有效
+    - 电池容量显示正常（前提：bios要设置充电至80%。若充至80%以上的电量，macOS电量会冻结在93%）
+    - 睡眠和唤醒正常，合上盖子再打开也正常
+    - cpu动态频率正常
 
-#### Display
-- Working
-    - internal display and brightness adjustment (by System Preferences or hotkeys)
-    - external display through USB-C port
-    - HiDPI by scripts
-- Nor working
-    - discrete GPU
-    - digital audio of external display
+#### 显示
+- 有效
+    - 内部显示和亮度调整（通过系统偏好设置或Fn热键）
+    - 通过 USB-C 端口外接显示器（自己没测试，Type-C测试：ipad pro能充电，但插入不能扩展屏）
+    - HiDPI需自己注入
+- 无效
+    - 独显不能驱动
+    - 外接显示器的数字音频
 
-#### Audio
+#### 声音
 - Working
     - analog audio including speaker, headphones, and internal microphone array
     - digital audio through USB-C port
