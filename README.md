@@ -1,4 +1,7 @@
 # [Hackintosh] OMEN_by_HP_Laptop_15-ce0xx
+### 系统
+- macOS Big Sur 11.2.3
+
 <p><center>EFI源自<a href="https://github.com/t-shao">t-shao</a></center></p>
 
 ## EFI改进
@@ -22,12 +25,8 @@ OpenCore 版本: 0.6.7
 | 硬盘              | HP SSD KIOXIA 512G、WD 500G               |
 | 网卡              | Realtek RTL8111 + Intel AX200             |
 
-(*) EFI兼容以上配置
+EFI兼容以上配置
 
-## Progress
-### System Support
-- Windows 10 and up to macOS Big Sur 11.2.3 (my current setup)
-- Others are not tested, feedback is welcome.
 
 ### 硬件功能
 #### 电源管理
