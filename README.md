@@ -3,7 +3,7 @@
 - 👌EFI基本完美，有新突破欢迎反馈！！
 - qq群：<a href="https://jq.qq.com/?_wv=1027&k=qxSfoaw7">639131732</a> （验证：暗影精灵黑苹果）
 
-### EFI改进 (EFI源自<a href="https://github.com/t-shao">t-shao</a>)
+### 对EFI改进 (原EFI:<a href="https://github.com/t-shao">t-shao</a>)
 - 注入显示屏信息，修复屏闪、裂屏
 - 修复暗影精灵3的有线网卡驱动
 - 注入序列号，使appleID正常登入（可以使用<a href="https://github.com/ic005k/QtOpenCoreConfig/releases">OCAuxiliaryTools</a>进行更换序列号，避免冲突）
