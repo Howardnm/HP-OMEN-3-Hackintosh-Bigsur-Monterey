@@ -62,4 +62,5 @@
   
 ![file](http://howard115.synology.me:520/wp-content/uploads/2021/10/image-1633672639575.png)
 
+- 拔掉u盘，开机按f9，用EFI里的opencore.efi启动
 ### *至此，黑苹果安装步骤全部完成。*
