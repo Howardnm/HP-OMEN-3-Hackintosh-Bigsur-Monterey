@@ -79,6 +79,7 @@ EFI兼容以上配置
 1. 用黑果小兵的镜像安装，直至进入新系统页面（镜像一般不会出现错误，中途会出现“block”字眼会卡很久，最终还是会加载进去的，给点耐心，祝你成功）
 2. 关机，复制OC和BOOT到你的EFI文件，进行替换
 3. 拔掉u盘，按F9开机，选OpenCore.efi启动
+- <a href="https://github.com/Howardnm/HP-OMEN-3-Hackintosh-Bigsur/blob/main/images/install%20bigsur%20guide.md">安装教程</a>
 
 ## 链接
 - 镜像下载
