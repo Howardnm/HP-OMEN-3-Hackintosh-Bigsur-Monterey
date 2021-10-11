@@ -15,6 +15,7 @@
 - 选择你下载好的DMG镜像，进行刷写
 
 ### 2、硬盘分区 | Partition the hard disk
+- EFI分区（ESP分区）需扩容到200MB以上容量
 - 打开DiskGenius，选择自己想要安装Mac OS的硬盘，这里我随便演示
 - 点击拆分分区，大小自己调整
 
