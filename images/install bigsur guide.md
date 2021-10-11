@@ -2,8 +2,8 @@
 ## 一、准备 Prepare
 - U盘一个（最低16G）
 - macOS Big Sur 11.2.3 20D91镜像
-- TransMac 软件
-- DiskGenius 软件
+- <a href="https://www.acutesystems.com/tmac/tmsetup.zip">TransMac 软件</a>
+- DiskGenius 软件（看群文件）
 - EFI包
 
 ## 二、前置
