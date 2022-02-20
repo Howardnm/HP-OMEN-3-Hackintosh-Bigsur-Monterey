@@ -885,13 +885,49 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>Display-6af-9c7c.kext</string>
+                    <string>RealtekRTL8100.kext</string>
                     <key>Comment</key>
-                    <string>V9.9.9</string>
+                    <string>V2.0.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
+                    <string>Contents/MacOS/RealtekRTL8100</string>
+                    <key>MaxKernel</key>
                     <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>Sinetek-rtsx.kext</string>
+                    <key>Comment</key>
+                    <string>V7</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/Sinetek-rtsx</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>HoRNDIS.kext</string>
+                    <key>Comment</key>
+                    <string>V9.2</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/HoRNDIS</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -977,9 +1013,7 @@
         <key>Misc</key>
         <dict>
             <key>BlessOverride</key>
-            <array>
-                <string>\EFI\Microsoft\Boot\bootmgfw.efi</string>
-            </array>
+            <array/>
             <key>Boot</key>
             <dict>
                 <key>ConsoleAttributes</key>
@@ -1151,7 +1185,7 @@
                 <key>AdviseFeatures</key>
                 <true/>
                 <key>MLB</key>
-                <string>C027117004NJ1JHJC</string>
+                <string>C028413004NJ1JHUE</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1165,9 +1199,9 @@
                 <key>SystemProductName</key>
                 <string>MacBookPro14,3</string>
                 <key>SystemSerialNumber</key>
-                <string>C02TF8Z9HTD5</string>
+                <string>C02XJ0PRHTD5</string>
                 <key>SystemUUID</key>
-                <string>2D3DC79B-5150-42B6-9935-6D79EAA9E49C</string>
+                <string>99EEF7A5-1A6C-45A4-9967-B0A6C8DA7A17</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
