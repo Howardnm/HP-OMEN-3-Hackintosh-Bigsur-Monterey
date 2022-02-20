@@ -1,5 +1,5 @@
 # [Hackintosh] OMEN_by_HP_Laptop_15-ce0xx
-### 系统：macOS Big Sur 11.2.3（最新EFI：12.2.1）
+### 系统：macOS Big Sur 11.2.3（最新EFI：Monterey 12.2.1）
 - 👌EFI基本完美，有新突破欢迎反馈！！
 - 🤪qq群：<a href="https://jq.qq.com/?_wv=1027&k=qxSfoaw7">639131732</a> （验证：暗影精灵黑苹果）
 
