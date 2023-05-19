@@ -61,7 +61,7 @@ EFI兼容以上配置
 | --- | --- | --- |
 |有线以太网|✅| 支持千兆 |
 |USB有线以太网|✅|未测试，估计不需要|
-|Intel WiFi和BT|✅|相当稳定，目前支持系统wifi管理界面和部分Continuity功能，包括Handoff和Universal Clipboard </br>（应该指的是AX200网卡，但我用的是博通BCM94352z免驱卡）|
+|Intel WiFi和BT|✅|相当稳定，目前支持系统wifi管理界面和部分Continuity功能，包括Handoff和Universal Clipboard </br>（指的是AX200网卡，此卡不能隔空投送。完美网卡请用博通BCM94352z免驱卡）|
 |蓝牙适配器|❌|建议更换免驱网卡|
 
 #### I/O
